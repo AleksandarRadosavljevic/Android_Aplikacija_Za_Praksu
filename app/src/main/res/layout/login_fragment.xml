@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".feature.login.LoginFragment">
+
+    <TextView
+        android:id="@+id/textViewUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/username"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/editTextUsernameValue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/textViewUsername"
+        app:layout_constraintTop_toTopOf="@id/textViewUsername"
+        app:layout_constraintBottom_toBottomOf="@id/textViewUsername"
+        android:layout_marginEnd="36dp"
+        android:layout_marginStart="18dp"/>
+
+    <TextView
+        android:id="@+id/textViewPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/textViewUsername"
+        app:layout_constraintTop_toBottomOf="@id/textViewUsername"
+        android:layout_marginTop="40dp"
+        android:text="Password:"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/editTextPasswordValue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/editTextUsernameValue"
+        app:layout_constraintEnd_toEndOf="@id/editTextUsernameValue"
+        app:layout_constraintTop_toTopOf="@id/textViewPassword"
+        app:layout_constraintBottom_toBottomOf="@id/textViewPassword"
+        />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/textViewPassword"
+        app:layout_constraintTop_toBottomOf="@id/textViewPassword"
+        android:layout_marginTop="150dp"
+        android:text="@string/login"
+        android:layout_marginStart="140dp"/>
+
+    <Button
+        android:id="@+id/buttonRegisterLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        app:layout_constraintStart_toStartOf="@id/loginButton"
+        app:layout_constraintTop_toBottomOf="@id/loginButton"
+        android:layout_marginTop="30dp"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

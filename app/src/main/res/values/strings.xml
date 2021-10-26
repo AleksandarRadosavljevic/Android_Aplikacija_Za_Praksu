@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Android_Aplikacija_Za_Praksu</string>
+    <string name="username">Username:</string>
+    <string name="password">Password</string>
+    <string name="passworda">Password:</string>
+    <string name="login">LOGIN</string>
+    <string name="ime">Ime:</string>
+    <string name="prezime">Prezime:</string>
+    <string name="ifra">Šifra:</string>
+    <string name="grad">Grad:</string>
+    <string name="magacin">Magacin:</string>
+    <string name="register">REGISTER</string>
+    <string name="weather">WEATHER</string>
+    <string name="timezone">Timezone:</string>
+    <string name="id">Id:</string>
+    <string name="name">Name:</string>
+    <string name="cod">Cod:</string>
+    <string name="photo">PHOTO</string>
+</resources>

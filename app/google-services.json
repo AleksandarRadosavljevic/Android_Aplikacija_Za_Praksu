@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "368242366966",
+    "project_id": "jobapplication-21dde",
+    "storage_bucket": "jobapplication-21dde.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368242366966:android:3e55ff597e0c0adfc70fd7",
+        "android_client_info": {
+          "package_name": "com.example.android_aplikacija_za_praksu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "368242366966-6ga4ir8r4esdbddriq7u06cqluph4tcu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-cTMMZ5dkeW2ipIIt6fvwwM7xNgSxG9M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "368242366966-6ga4ir8r4esdbddriq7u06cqluph4tcu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
